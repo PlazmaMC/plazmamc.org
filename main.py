@@ -19,5 +19,5 @@ def main():
         if (target not in urls):
             return { 404: {"description": "Not found"} }
 
-        return urls[target]
+        return responses.RedirectResponse(urls[target])
 main()
