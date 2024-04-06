@@ -3,7 +3,7 @@ from fastapi import *
 app = FastAPI(
     docs_url = None,
     redoc_url = None,
-    default_response_class = responses.RedirectResponsr
+    default_response_class = responses.RedirectResponse
 )
 
 @app.get("/", status_code = 308)
