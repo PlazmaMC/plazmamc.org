@@ -13,7 +13,7 @@ async def root():
 def main():
     urls = {
         "downloads": "https://docs.plazmamc.org/plazma/about/downloads",
-        "discord": "https://discord.gg/AZwXTA9Pgx"
+        "discord": "https://discord.gg/MmfC52K8A8"
     }
 
     @app.get("/{target:str}", status_code = 308)
